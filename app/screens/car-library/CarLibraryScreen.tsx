@@ -24,6 +24,8 @@ const CarLibraryScreen: React.FC = () => {
     handleFilter,
     clearAllFilters,
     isApplyingFilters,
+    isRefreshing,
+    refreshCars,
   } = useCarLibraryScreen();
   const navigation = useNavigation<any>();
   const inputRef = useRef<TextInput | null>(null);
@@ -35,11 +37,12 @@ const CarLibraryScreen: React.FC = () => {
     Keyboard.dismiss();
   };
 
-  const renderItem = useCallback(({ item }: { item: CarListDataProps }) => (
+  const renderItem = useCallback(({ item, index }: { item: CarListDataProps, index: number }) => (
     <CarListCard
       image={item.imageUrl}
       name={item.name}
       transmission={item.carType}
+      index={index}
       onPress={() => navigation.navigate(Routes.carDetail, { id: String(item.id) })}
     />
   ), [navigation]);
@@ -138,6 +141,8 @@ const CarLibraryScreen: React.FC = () => {
                 windowSize={7}
                 updateCellsBatchingPeriod={50}
                 contentContainerStyle={styles.flatListContent}
+                refreshing={isRefreshing}
+                onRefresh={refreshCars}
               />
             ) : (
               <View style={styles.noResultsContainer}>

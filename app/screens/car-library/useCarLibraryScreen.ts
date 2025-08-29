@@ -10,6 +10,7 @@ const useCarLibraryScreen = () => {
   const [filters, setFilters] = useState<CarFilters>({});
   const [searchText, setSearchText] = useState('');
   const [isApplyingFilters, setIsApplyingFilters] = useState(false);
+  const [isRefreshing, setIsRefreshing] = useState(false);
 
   const fetchCarList = useCallback(async (requestedFilters?: CarFilters) => {
     const filterParams = requestedFilters ? {
@@ -143,6 +144,15 @@ const useCarLibraryScreen = () => {
     }
   };
 
+  const refreshCars = async () => {
+    try {
+      setIsRefreshing(true);
+      await fetchCarList(currentFilters);
+    } finally {
+      setIsRefreshing(false);
+    }
+  };
+
   return {
     isLoading,
     carList,
@@ -151,12 +161,14 @@ const useCarLibraryScreen = () => {
     setFilters,
     loadCarsWithFilters,
     isApplyingFilters,
+    isRefreshing,
     searchText,
     setSearchText,
     onSubmitSearch,
     handleSort,
     handleFilter,
     clearAllFilters,
+    refreshCars,
   };
 };
 

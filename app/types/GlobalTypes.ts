@@ -38,6 +38,7 @@ export interface CarListCardProps {
   transmission: 'automatic' | 'manual';
   image?: string;
   onPress?: () => void;
+  index?: number;
 }
 export interface CarFilters {
   search?: string;
