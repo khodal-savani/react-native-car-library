@@ -2,6 +2,13 @@ apply plugin: "com.android.application"
 apply plugin: "org.jetbrains.kotlin.android"
 apply plugin: "com.facebook.react"
 
+project.ext.envConfigFiles = [
+    productionDebug: ".env.production",
+    productionRelease: ".env.production",
+    developmentRelease: ".env.development",
+    developmentDebug: ".env.development"
+]
+
 /**
  * This is the configuration block to customize your React Native Android app.
  * By default you don't need to apply any configuration, just uncomment the lines you need.
@@ -76,6 +83,18 @@ android {
     ndkVersion rootProject.ext.ndkVersion
     buildToolsVersion rootProject.ext.buildToolsVersion
     compileSdk rootProject.ext.compileSdkVersion
+
+    flavorDimensions "env"
+    productFlavors {
+        production {
+            dimension "env"
+            applicationId "com.carlibrary"
+        }
+        development {
+            dimension "env"
+            applicationId "com.carlibrary"
+        }
+    }
 
     namespace "com.carlibrary"
     defaultConfig {

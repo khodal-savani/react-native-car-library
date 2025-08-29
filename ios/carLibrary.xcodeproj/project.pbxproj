@@ -7,23 +7,133 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		0C80B921A6F3F58F76C31292 /* libPods-carLibrary.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 5DCACB8F33CDC322A6C60F78 /* libPods-carLibrary.a */; };
+		0C80B921A6F3F58F76C31292 /* BuildFile in Frameworks */ = {isa = PBXBuildFile; };
+		0CCADB6099534D19B63D4410 /* Nunito-SemiBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = CB8A9D05C3E44AB88FE05B1B /* Nunito-SemiBold.ttf */; };
+		0CE21EED73954F938947A35D /* Nunito-ExtraBoldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = AD9C3A82ED054F548CF32CE7 /* Nunito-ExtraBoldItalic.ttf */; };
+		0F725AAD525DC444EFD8FF79 /* PrivacyInfo.xcprivacy in Resources */ = {isa = PBXBuildFile; fileRef = 13B07FB81A68108700A75B9A /* PrivacyInfo.xcprivacy */; };
+		125069F10A37495C8C3B3856 /* Nunito-Light.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 30D211C6AC9F44F29BFE08F6 /* Nunito-Light.ttf */; };
 		13B07FBF1A68108700A75B9A /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 13B07FB51A68108700A75B9A /* Images.xcassets */; };
+		14F25DDCB9C9465AB5DAFB53 /* Oswald-Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 330B14D30791428597353970 /* Oswald-Medium.ttf */; };
+		1DC4366EE19D466B8EDBEACE /* Nunito-MediumItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 685ED7DEB8D5441D9CDE59DA /* Nunito-MediumItalic.ttf */; };
+		2C5C452E4CA04402B9D210D7 /* Nunito-ExtraBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = E46E224DE999488C89688267 /* Nunito-ExtraBold.ttf */; };
+		32CCE50B1B2044F9827E0657 /* Nunito-Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = F126656029B04D86A7A315D9 /* Nunito-Medium.ttf */; };
+		3D1276635B9A4F10BDE42EE4 /* Nunito-LightItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = CB5EAF37E3B7465B947768B8 /* Nunito-LightItalic.ttf */; };
+		457269D62E61AFCE00486BD7 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 761780EC2CA45674006654EE /* AppDelegate.swift */; };
+		457269DA2E61AFCE00486BD7 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */; };
+		457269DB2E61AFCE00486BD7 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 13B07FB51A68108700A75B9A /* Images.xcassets */; };
+		457269DC2E61AFCE00486BD7 /* PrivacyInfo.xcprivacy in Resources */ = {isa = PBXBuildFile; fileRef = 13B07FB81A68108700A75B9A /* PrivacyInfo.xcprivacy */; };
+		457269DD2E61AFCE00486BD7 /* Nunito-Black.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 40BBC5237B1E46FF8A23AE2B /* Nunito-Black.ttf */; };
+		457269DE2E61AFCE00486BD7 /* Nunito-BlackItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = D8116A9186384A91A2027310 /* Nunito-BlackItalic.ttf */; };
+		457269DF2E61AFCE00486BD7 /* Nunito-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 2E04D157A62C421EAE8FF7E7 /* Nunito-Bold.ttf */; };
+		457269E02E61AFCE00486BD7 /* Nunito-BoldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 070BFB6CB87042FEB02A3904 /* Nunito-BoldItalic.ttf */; };
+		457269E12E61AFCE00486BD7 /* Nunito-ExtraBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = E46E224DE999488C89688267 /* Nunito-ExtraBold.ttf */; };
+		457269E22E61AFCE00486BD7 /* Nunito-ExtraBoldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = AD9C3A82ED054F548CF32CE7 /* Nunito-ExtraBoldItalic.ttf */; };
+		457269E32E61AFCE00486BD7 /* Nunito-ExtraLight.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 3D2F5DEE14814164BBC66D8D /* Nunito-ExtraLight.ttf */; };
+		457269E42E61AFCE00486BD7 /* Nunito-ExtraLightItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 242DC8FE33204399AC173C86 /* Nunito-ExtraLightItalic.ttf */; };
+		457269E52E61AFCE00486BD7 /* Nunito-Italic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 5B3E6B4059DB4742B6278B77 /* Nunito-Italic.ttf */; };
+		457269E62E61AFCE00486BD7 /* Nunito-Light.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 30D211C6AC9F44F29BFE08F6 /* Nunito-Light.ttf */; };
+		457269E72E61AFCE00486BD7 /* Nunito-LightItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = CB5EAF37E3B7465B947768B8 /* Nunito-LightItalic.ttf */; };
+		457269E82E61AFCE00486BD7 /* Nunito-Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = F126656029B04D86A7A315D9 /* Nunito-Medium.ttf */; };
+		457269E92E61AFCE00486BD7 /* Nunito-MediumItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 685ED7DEB8D5441D9CDE59DA /* Nunito-MediumItalic.ttf */; };
+		457269EA2E61AFCE00486BD7 /* Nunito-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 883C6325266043F391395B8E /* Nunito-Regular.ttf */; };
+		457269EB2E61AFCE00486BD7 /* Nunito-SemiBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = CB8A9D05C3E44AB88FE05B1B /* Nunito-SemiBold.ttf */; };
+		457269EC2E61AFCE00486BD7 /* Nunito-SemiBoldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = CE13E11C3A4F4C9C9E2AB36A /* Nunito-SemiBoldItalic.ttf */; };
+		457269ED2E61AFCE00486BD7 /* Oswald-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 521C9206485F41FAA1EBB63A /* Oswald-Bold.ttf */; };
+		457269EE2E61AFCE00486BD7 /* Oswald-ExtraLight.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 543C7FF47A6C4BF983F68CFF /* Oswald-ExtraLight.ttf */; };
+		457269EF2E61AFCE00486BD7 /* Oswald-Light.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 8A613A25F117491DBF189F5E /* Oswald-Light.ttf */; };
+		457269F02E61AFCE00486BD7 /* Oswald-Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 330B14D30791428597353970 /* Oswald-Medium.ttf */; };
+		457269F12E61AFCE00486BD7 /* Oswald-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 57426525439D4099A10F4F0A /* Oswald-Regular.ttf */; };
+		457269F22E61AFCE00486BD7 /* Oswald-SemiBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 42BA1A8B0AAD49DFBAE52F4A /* Oswald-SemiBold.ttf */; };
+		457269FE2E61AFE100486BD7 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 761780EC2CA45674006654EE /* AppDelegate.swift */; };
+		45726A022E61AFE100486BD7 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */; };
+		45726A032E61AFE100486BD7 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 13B07FB51A68108700A75B9A /* Images.xcassets */; };
+		45726A042E61AFE100486BD7 /* PrivacyInfo.xcprivacy in Resources */ = {isa = PBXBuildFile; fileRef = 13B07FB81A68108700A75B9A /* PrivacyInfo.xcprivacy */; };
+		45726A052E61AFE100486BD7 /* Nunito-Black.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 40BBC5237B1E46FF8A23AE2B /* Nunito-Black.ttf */; };
+		45726A062E61AFE100486BD7 /* Nunito-BlackItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = D8116A9186384A91A2027310 /* Nunito-BlackItalic.ttf */; };
+		45726A072E61AFE100486BD7 /* Nunito-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 2E04D157A62C421EAE8FF7E7 /* Nunito-Bold.ttf */; };
+		45726A082E61AFE100486BD7 /* Nunito-BoldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 070BFB6CB87042FEB02A3904 /* Nunito-BoldItalic.ttf */; };
+		45726A092E61AFE100486BD7 /* Nunito-ExtraBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = E46E224DE999488C89688267 /* Nunito-ExtraBold.ttf */; };
+		45726A0A2E61AFE100486BD7 /* Nunito-ExtraBoldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = AD9C3A82ED054F548CF32CE7 /* Nunito-ExtraBoldItalic.ttf */; };
+		45726A0B2E61AFE100486BD7 /* Nunito-ExtraLight.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 3D2F5DEE14814164BBC66D8D /* Nunito-ExtraLight.ttf */; };
+		45726A0C2E61AFE100486BD7 /* Nunito-ExtraLightItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 242DC8FE33204399AC173C86 /* Nunito-ExtraLightItalic.ttf */; };
+		45726A0D2E61AFE100486BD7 /* Nunito-Italic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 5B3E6B4059DB4742B6278B77 /* Nunito-Italic.ttf */; };
+		45726A0E2E61AFE100486BD7 /* Nunito-Light.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 30D211C6AC9F44F29BFE08F6 /* Nunito-Light.ttf */; };
+		45726A0F2E61AFE100486BD7 /* Nunito-LightItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = CB5EAF37E3B7465B947768B8 /* Nunito-LightItalic.ttf */; };
+		45726A102E61AFE100486BD7 /* Nunito-Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = F126656029B04D86A7A315D9 /* Nunito-Medium.ttf */; };
+		45726A112E61AFE100486BD7 /* Nunito-MediumItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 685ED7DEB8D5441D9CDE59DA /* Nunito-MediumItalic.ttf */; };
+		45726A122E61AFE100486BD7 /* Nunito-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 883C6325266043F391395B8E /* Nunito-Regular.ttf */; };
+		45726A132E61AFE100486BD7 /* Nunito-SemiBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = CB8A9D05C3E44AB88FE05B1B /* Nunito-SemiBold.ttf */; };
+		45726A142E61AFE100486BD7 /* Nunito-SemiBoldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = CE13E11C3A4F4C9C9E2AB36A /* Nunito-SemiBoldItalic.ttf */; };
+		45726A152E61AFE100486BD7 /* Oswald-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 521C9206485F41FAA1EBB63A /* Oswald-Bold.ttf */; };
+		45726A162E61AFE100486BD7 /* Oswald-ExtraLight.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 543C7FF47A6C4BF983F68CFF /* Oswald-ExtraLight.ttf */; };
+		45726A172E61AFE100486BD7 /* Oswald-Light.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 8A613A25F117491DBF189F5E /* Oswald-Light.ttf */; };
+		45726A182E61AFE100486BD7 /* Oswald-Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 330B14D30791428597353970 /* Oswald-Medium.ttf */; };
+		45726A192E61AFE100486BD7 /* Oswald-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 57426525439D4099A10F4F0A /* Oswald-Regular.ttf */; };
+		45726A1A2E61AFE100486BD7 /* Oswald-SemiBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 42BA1A8B0AAD49DFBAE52F4A /* Oswald-SemiBold.ttf */; };
+		67F26A041E054D6885DE19D4 /* Oswald-Light.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 8A613A25F117491DBF189F5E /* Oswald-Light.ttf */; };
+		6D493EF19BDD48FAB56E32E9 /* Nunito-Black.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 40BBC5237B1E46FF8A23AE2B /* Nunito-Black.ttf */; };
+		723C63814ECA4C2FB1B1CE70 /* Oswald-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 57426525439D4099A10F4F0A /* Oswald-Regular.ttf */; };
 		761780ED2CA45674006654EE /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 761780EC2CA45674006654EE /* AppDelegate.swift */; };
+		77E4A750666A67950749FC24 /* libPods-carLibrary-carLibrary-prod.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 64A9938BEE41E853524F5E90 /* libPods-carLibrary-carLibrary-prod.a */; };
+		78ED35AF8565076DC6CBB97A /* libPods-carLibrary.a in Frameworks */ = {isa = PBXBuildFile; fileRef = CC0315214D07A519146D787C /* libPods-carLibrary.a */; };
 		81AB9BB82411601600AC10FF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */; };
+		8968A144DA7D48C7816F75F3 /* Nunito-BlackItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = D8116A9186384A91A2027310 /* Nunito-BlackItalic.ttf */; };
+		8E0DBC2C81F54D58891F3496 /* Nunito-ExtraLight.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 3D2F5DEE14814164BBC66D8D /* Nunito-ExtraLight.ttf */; };
+		9638921106DD467EA0BC463B /* Nunito-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 883C6325266043F391395B8E /* Nunito-Regular.ttf */; };
+		99402968AEAF43EDB87A1298 /* Oswald-SemiBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 42BA1A8B0AAD49DFBAE52F4A /* Oswald-SemiBold.ttf */; };
+		A080CF7E187B46D2B5C2BC2A /* Oswald-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 521C9206485F41FAA1EBB63A /* Oswald-Bold.ttf */; };
+		A1FA9F7C368B4735BE7972C1 /* Nunito-BoldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 070BFB6CB87042FEB02A3904 /* Nunito-BoldItalic.ttf */; };
+		B6D5E127ACC54CCC8CAEF138 /* Nunito-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 2E04D157A62C421EAE8FF7E7 /* Nunito-Bold.ttf */; };
+		BEFF4A6FE81047EF8EA77FD8 /* Nunito-ExtraLightItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 242DC8FE33204399AC173C86 /* Nunito-ExtraLightItalic.ttf */; };
+		CC5508E391CC4A9FBDEC1FE3 /* Oswald-ExtraLight.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 543C7FF47A6C4BF983F68CFF /* Oswald-ExtraLight.ttf */; };
+		D0FAB26083ACAA493840ACA4 /* libPods-carLibrary-carLibrary-dev.a in Frameworks */ = {isa = PBXBuildFile; fileRef = D2FE9FC11275D691096AF994 /* libPods-carLibrary-carLibrary-dev.a */; };
+		E01646D566EC4C1AB3768E65 /* Nunito-SemiBoldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = CE13E11C3A4F4C9C9E2AB36A /* Nunito-SemiBoldItalic.ttf */; };
+		ED735AE3861B440B89E5DF46 /* Nunito-Italic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 5B3E6B4059DB4742B6278B77 /* Nunito-Italic.ttf */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		070BFB6CB87042FEB02A3904 /* Nunito-BoldItalic.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "Nunito-BoldItalic.ttf"; path = "../app/assets/fonts/Nunito-BoldItalic.ttf"; sourceTree = "<group>"; };
 		13B07F961A680F5B00A75B9A /* carLibrary.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = carLibrary.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		13B07FB51A68108700A75B9A /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Images.xcassets; path = carLibrary/Images.xcassets; sourceTree = "<group>"; };
 		13B07FB61A68108700A75B9A /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = Info.plist; path = carLibrary/Info.plist; sourceTree = "<group>"; };
 		13B07FB81A68108700A75B9A /* PrivacyInfo.xcprivacy */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = PrivacyInfo.xcprivacy; path = carLibrary/PrivacyInfo.xcprivacy; sourceTree = "<group>"; };
+		242DC8FE33204399AC173C86 /* Nunito-ExtraLightItalic.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "Nunito-ExtraLightItalic.ttf"; path = "../app/assets/fonts/Nunito-ExtraLightItalic.ttf"; sourceTree = "<group>"; };
+		2E04D157A62C421EAE8FF7E7 /* Nunito-Bold.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "Nunito-Bold.ttf"; path = "../app/assets/fonts/Nunito-Bold.ttf"; sourceTree = "<group>"; };
+		30D211C6AC9F44F29BFE08F6 /* Nunito-Light.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "Nunito-Light.ttf"; path = "../app/assets/fonts/Nunito-Light.ttf"; sourceTree = "<group>"; };
+		330B14D30791428597353970 /* Oswald-Medium.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "Oswald-Medium.ttf"; path = "../app/assets/fonts/Oswald-Medium.ttf"; sourceTree = "<group>"; };
+		3A1342F3DF7840563208A691 /* Pods-carLibrary-carLibrary-dev.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-carLibrary-carLibrary-dev.release.xcconfig"; path = "Target Support Files/Pods-carLibrary-carLibrary-dev/Pods-carLibrary-carLibrary-dev.release.xcconfig"; sourceTree = "<group>"; };
 		3B4392A12AC88292D35C810B /* Pods-carLibrary.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-carLibrary.debug.xcconfig"; path = "Target Support Files/Pods-carLibrary/Pods-carLibrary.debug.xcconfig"; sourceTree = "<group>"; };
+		3D2F5DEE14814164BBC66D8D /* Nunito-ExtraLight.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "Nunito-ExtraLight.ttf"; path = "../app/assets/fonts/Nunito-ExtraLight.ttf"; sourceTree = "<group>"; };
+		40BBC5237B1E46FF8A23AE2B /* Nunito-Black.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "Nunito-Black.ttf"; path = "../app/assets/fonts/Nunito-Black.ttf"; sourceTree = "<group>"; };
+		42BA1A8B0AAD49DFBAE52F4A /* Oswald-SemiBold.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "Oswald-SemiBold.ttf"; path = "../app/assets/fonts/Oswald-SemiBold.ttf"; sourceTree = "<group>"; };
+		457269F92E61AFCE00486BD7 /* carLibrary-dev.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "carLibrary-dev.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		457269FA2E61AFCF00486BD7 /* carLibrary-dev-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = "carLibrary-dev-Info.plist"; path = "/Users/khodal/Desktop/me/reactnative/demo/carLibrary/ios/carLibrary-dev-Info.plist"; sourceTree = "<absolute>"; };
+		45726A212E61AFE100486BD7 /* carLibrary-prod.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "carLibrary-prod.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		45726A222E61AFE100486BD7 /* carLibrary-prod-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = "carLibrary-prod-Info.plist"; path = "/Users/khodal/Desktop/me/reactnative/demo/carLibrary/ios/carLibrary-prod-Info.plist"; sourceTree = "<absolute>"; };
+		521C9206485F41FAA1EBB63A /* Oswald-Bold.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "Oswald-Bold.ttf"; path = "../app/assets/fonts/Oswald-Bold.ttf"; sourceTree = "<group>"; };
+		543C7FF47A6C4BF983F68CFF /* Oswald-ExtraLight.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "Oswald-ExtraLight.ttf"; path = "../app/assets/fonts/Oswald-ExtraLight.ttf"; sourceTree = "<group>"; };
 		5709B34CF0A7D63546082F79 /* Pods-carLibrary.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-carLibrary.release.xcconfig"; path = "Target Support Files/Pods-carLibrary/Pods-carLibrary.release.xcconfig"; sourceTree = "<group>"; };
-		5DCACB8F33CDC322A6C60F78 /* libPods-carLibrary.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-carLibrary.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		57426525439D4099A10F4F0A /* Oswald-Regular.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "Oswald-Regular.ttf"; path = "../app/assets/fonts/Oswald-Regular.ttf"; sourceTree = "<group>"; };
+		5B3E6B4059DB4742B6278B77 /* Nunito-Italic.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "Nunito-Italic.ttf"; path = "../app/assets/fonts/Nunito-Italic.ttf"; sourceTree = "<group>"; };
+		64A9938BEE41E853524F5E90 /* libPods-carLibrary-carLibrary-prod.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-carLibrary-carLibrary-prod.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		685ED7DEB8D5441D9CDE59DA /* Nunito-MediumItalic.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "Nunito-MediumItalic.ttf"; path = "../app/assets/fonts/Nunito-MediumItalic.ttf"; sourceTree = "<group>"; };
 		761780EC2CA45674006654EE /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = AppDelegate.swift; path = carLibrary/AppDelegate.swift; sourceTree = "<group>"; };
 		81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = LaunchScreen.storyboard; path = carLibrary/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		883C6325266043F391395B8E /* Nunito-Regular.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "Nunito-Regular.ttf"; path = "../app/assets/fonts/Nunito-Regular.ttf"; sourceTree = "<group>"; };
+		8A613A25F117491DBF189F5E /* Oswald-Light.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "Oswald-Light.ttf"; path = "../app/assets/fonts/Oswald-Light.ttf"; sourceTree = "<group>"; };
+		9CC81F3028E852CC1BA0D210 /* Pods-carLibrary-carLibrary-prod.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-carLibrary-carLibrary-prod.debug.xcconfig"; path = "Target Support Files/Pods-carLibrary-carLibrary-prod/Pods-carLibrary-carLibrary-prod.debug.xcconfig"; sourceTree = "<group>"; };
+		AD9C3A82ED054F548CF32CE7 /* Nunito-ExtraBoldItalic.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "Nunito-ExtraBoldItalic.ttf"; path = "../app/assets/fonts/Nunito-ExtraBoldItalic.ttf"; sourceTree = "<group>"; };
+		B00B5B84220A40C00E273203 /* Pods-carLibrary-carLibrary-dev.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-carLibrary-carLibrary-dev.debug.xcconfig"; path = "Target Support Files/Pods-carLibrary-carLibrary-dev/Pods-carLibrary-carLibrary-dev.debug.xcconfig"; sourceTree = "<group>"; };
+		CB5EAF37E3B7465B947768B8 /* Nunito-LightItalic.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "Nunito-LightItalic.ttf"; path = "../app/assets/fonts/Nunito-LightItalic.ttf"; sourceTree = "<group>"; };
+		CB8A9D05C3E44AB88FE05B1B /* Nunito-SemiBold.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "Nunito-SemiBold.ttf"; path = "../app/assets/fonts/Nunito-SemiBold.ttf"; sourceTree = "<group>"; };
+		CC0315214D07A519146D787C /* libPods-carLibrary.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-carLibrary.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		CE13E11C3A4F4C9C9E2AB36A /* Nunito-SemiBoldItalic.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "Nunito-SemiBoldItalic.ttf"; path = "../app/assets/fonts/Nunito-SemiBoldItalic.ttf"; sourceTree = "<group>"; };
+		D2FE9FC11275D691096AF994 /* libPods-carLibrary-carLibrary-dev.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-carLibrary-carLibrary-dev.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D8116A9186384A91A2027310 /* Nunito-BlackItalic.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "Nunito-BlackItalic.ttf"; path = "../app/assets/fonts/Nunito-BlackItalic.ttf"; sourceTree = "<group>"; };
+		E46E224DE999488C89688267 /* Nunito-ExtraBold.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "Nunito-ExtraBold.ttf"; path = "../app/assets/fonts/Nunito-ExtraBold.ttf"; sourceTree = "<group>"; };
 		ED297162215061F000B7C4FE /* JavaScriptCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JavaScriptCore.framework; path = System/Library/Frameworks/JavaScriptCore.framework; sourceTree = SDKROOT; };
+		F0DAEA5BAC7D9822E838C413 /* Pods-carLibrary-carLibrary-prod.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-carLibrary-carLibrary-prod.release.xcconfig"; path = "Target Support Files/Pods-carLibrary-carLibrary-prod/Pods-carLibrary-carLibrary-prod.release.xcconfig"; sourceTree = "<group>"; };
+		F126656029B04D86A7A315D9 /* Nunito-Medium.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "Nunito-Medium.ttf"; path = "../app/assets/fonts/Nunito-Medium.ttf"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,7 +141,24 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				0C80B921A6F3F58F76C31292 /* libPods-carLibrary.a in Frameworks */,
+				0C80B921A6F3F58F76C31292 /* BuildFile in Frameworks */,
+				78ED35AF8565076DC6CBB97A /* libPods-carLibrary.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		457269D72E61AFCE00486BD7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D0FAB26083ACAA493840ACA4 /* libPods-carLibrary-carLibrary-dev.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		457269FF2E61AFE100486BD7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				77E4A750666A67950749FC24 /* libPods-carLibrary-carLibrary-prod.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -54,7 +181,9 @@
 			isa = PBXGroup;
 			children = (
 				ED297162215061F000B7C4FE /* JavaScriptCore.framework */,
-				5DCACB8F33CDC322A6C60F78 /* libPods-carLibrary.a */,
+				D2FE9FC11275D691096AF994 /* libPods-carLibrary-carLibrary-dev.a */,
+				64A9938BEE41E853524F5E90 /* libPods-carLibrary-carLibrary-prod.a */,
+				CC0315214D07A519146D787C /* libPods-carLibrary.a */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -74,6 +203,9 @@
 				83CBBA001A601CBA00E9B192 /* Products */,
 				2D16E6871FA4F8E400B85C8A /* Frameworks */,
 				BBD78D7AC51CEA395F1C20DB /* Pods */,
+				9670421060F74C379487F3D6 /* Resources */,
+				457269FA2E61AFCF00486BD7 /* carLibrary-dev-Info.plist */,
+				45726A222E61AFE100486BD7 /* carLibrary-prod-Info.plist */,
 			);
 			indentWidth = 2;
 			sourceTree = "<group>";
@@ -84,8 +216,39 @@
 			isa = PBXGroup;
 			children = (
 				13B07F961A680F5B00A75B9A /* carLibrary.app */,
+				457269F92E61AFCE00486BD7 /* carLibrary-dev.app */,
+				45726A212E61AFE100486BD7 /* carLibrary-prod.app */,
 			);
 			name = Products;
+			sourceTree = "<group>";
+		};
+		9670421060F74C379487F3D6 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				40BBC5237B1E46FF8A23AE2B /* Nunito-Black.ttf */,
+				D8116A9186384A91A2027310 /* Nunito-BlackItalic.ttf */,
+				2E04D157A62C421EAE8FF7E7 /* Nunito-Bold.ttf */,
+				070BFB6CB87042FEB02A3904 /* Nunito-BoldItalic.ttf */,
+				E46E224DE999488C89688267 /* Nunito-ExtraBold.ttf */,
+				AD9C3A82ED054F548CF32CE7 /* Nunito-ExtraBoldItalic.ttf */,
+				3D2F5DEE14814164BBC66D8D /* Nunito-ExtraLight.ttf */,
+				242DC8FE33204399AC173C86 /* Nunito-ExtraLightItalic.ttf */,
+				5B3E6B4059DB4742B6278B77 /* Nunito-Italic.ttf */,
+				30D211C6AC9F44F29BFE08F6 /* Nunito-Light.ttf */,
+				CB5EAF37E3B7465B947768B8 /* Nunito-LightItalic.ttf */,
+				F126656029B04D86A7A315D9 /* Nunito-Medium.ttf */,
+				685ED7DEB8D5441D9CDE59DA /* Nunito-MediumItalic.ttf */,
+				883C6325266043F391395B8E /* Nunito-Regular.ttf */,
+				CB8A9D05C3E44AB88FE05B1B /* Nunito-SemiBold.ttf */,
+				CE13E11C3A4F4C9C9E2AB36A /* Nunito-SemiBoldItalic.ttf */,
+				521C9206485F41FAA1EBB63A /* Oswald-Bold.ttf */,
+				543C7FF47A6C4BF983F68CFF /* Oswald-ExtraLight.ttf */,
+				8A613A25F117491DBF189F5E /* Oswald-Light.ttf */,
+				330B14D30791428597353970 /* Oswald-Medium.ttf */,
+				57426525439D4099A10F4F0A /* Oswald-Regular.ttf */,
+				42BA1A8B0AAD49DFBAE52F4A /* Oswald-SemiBold.ttf */,
+			);
+			name = Resources;
 			sourceTree = "<group>";
 		};
 		BBD78D7AC51CEA395F1C20DB /* Pods */ = {
@@ -93,6 +256,10 @@
 			children = (
 				3B4392A12AC88292D35C810B /* Pods-carLibrary.debug.xcconfig */,
 				5709B34CF0A7D63546082F79 /* Pods-carLibrary.release.xcconfig */,
+				B00B5B84220A40C00E273203 /* Pods-carLibrary-carLibrary-dev.debug.xcconfig */,
+				3A1342F3DF7840563208A691 /* Pods-carLibrary-carLibrary-dev.release.xcconfig */,
+				9CC81F3028E852CC1BA0D210 /* Pods-carLibrary-carLibrary-prod.debug.xcconfig */,
+				F0DAEA5BAC7D9822E838C413 /* Pods-carLibrary-carLibrary-prod.release.xcconfig */,
 			);
 			path = Pods;
 			sourceTree = "<group>";
@@ -119,6 +286,48 @@
 			name = carLibrary;
 			productName = carLibrary;
 			productReference = 13B07F961A680F5B00A75B9A /* carLibrary.app */;
+			productType = "com.apple.product-type.application";
+		};
+		457269D32E61AFCE00486BD7 /* carLibrary-dev */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 457269F62E61AFCE00486BD7 /* Build configuration list for PBXNativeTarget "carLibrary-dev" */;
+			buildPhases = (
+				457269D42E61AFCE00486BD7 /* [CP] Check Pods Manifest.lock */,
+				457269D52E61AFCE00486BD7 /* Sources */,
+				457269D72E61AFCE00486BD7 /* Frameworks */,
+				457269D92E61AFCE00486BD7 /* Resources */,
+				457269F32E61AFCE00486BD7 /* Bundle React Native code and images */,
+				457269F42E61AFCE00486BD7 /* [CP] Embed Pods Frameworks */,
+				457269F52E61AFCE00486BD7 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "carLibrary-dev";
+			productName = carLibrary;
+			productReference = 457269F92E61AFCE00486BD7 /* carLibrary-dev.app */;
+			productType = "com.apple.product-type.application";
+		};
+		457269FB2E61AFE100486BD7 /* carLibrary-prod */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 45726A1E2E61AFE100486BD7 /* Build configuration list for PBXNativeTarget "carLibrary-prod" */;
+			buildPhases = (
+				457269FC2E61AFE100486BD7 /* [CP] Check Pods Manifest.lock */,
+				457269FD2E61AFE100486BD7 /* Sources */,
+				457269FF2E61AFE100486BD7 /* Frameworks */,
+				45726A012E61AFE100486BD7 /* Resources */,
+				45726A1B2E61AFE100486BD7 /* Bundle React Native code and images */,
+				45726A1C2E61AFE100486BD7 /* [CP] Embed Pods Frameworks */,
+				45726A1D2E61AFE100486BD7 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "carLibrary-prod";
+			productName = carLibrary;
+			productReference = 45726A212E61AFE100486BD7 /* carLibrary-prod.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -148,6 +357,8 @@
 			projectRoot = "";
 			targets = (
 				13B07F861A680F5B00A75B9A /* carLibrary */,
+				457269D32E61AFCE00486BD7 /* carLibrary-dev */,
+				457269FB2E61AFE100486BD7 /* carLibrary-prod */,
 			);
 		};
 /* End PBXProject section */
@@ -159,6 +370,93 @@
 			files = (
 				81AB9BB82411601600AC10FF /* LaunchScreen.storyboard in Resources */,
 				13B07FBF1A68108700A75B9A /* Images.xcassets in Resources */,
+				0F725AAD525DC444EFD8FF79 /* PrivacyInfo.xcprivacy in Resources */,
+				6D493EF19BDD48FAB56E32E9 /* Nunito-Black.ttf in Resources */,
+				8968A144DA7D48C7816F75F3 /* Nunito-BlackItalic.ttf in Resources */,
+				B6D5E127ACC54CCC8CAEF138 /* Nunito-Bold.ttf in Resources */,
+				A1FA9F7C368B4735BE7972C1 /* Nunito-BoldItalic.ttf in Resources */,
+				2C5C452E4CA04402B9D210D7 /* Nunito-ExtraBold.ttf in Resources */,
+				0CE21EED73954F938947A35D /* Nunito-ExtraBoldItalic.ttf in Resources */,
+				8E0DBC2C81F54D58891F3496 /* Nunito-ExtraLight.ttf in Resources */,
+				BEFF4A6FE81047EF8EA77FD8 /* Nunito-ExtraLightItalic.ttf in Resources */,
+				ED735AE3861B440B89E5DF46 /* Nunito-Italic.ttf in Resources */,
+				125069F10A37495C8C3B3856 /* Nunito-Light.ttf in Resources */,
+				3D1276635B9A4F10BDE42EE4 /* Nunito-LightItalic.ttf in Resources */,
+				32CCE50B1B2044F9827E0657 /* Nunito-Medium.ttf in Resources */,
+				1DC4366EE19D466B8EDBEACE /* Nunito-MediumItalic.ttf in Resources */,
+				9638921106DD467EA0BC463B /* Nunito-Regular.ttf in Resources */,
+				0CCADB6099534D19B63D4410 /* Nunito-SemiBold.ttf in Resources */,
+				E01646D566EC4C1AB3768E65 /* Nunito-SemiBoldItalic.ttf in Resources */,
+				A080CF7E187B46D2B5C2BC2A /* Oswald-Bold.ttf in Resources */,
+				CC5508E391CC4A9FBDEC1FE3 /* Oswald-ExtraLight.ttf in Resources */,
+				67F26A041E054D6885DE19D4 /* Oswald-Light.ttf in Resources */,
+				14F25DDCB9C9465AB5DAFB53 /* Oswald-Medium.ttf in Resources */,
+				723C63814ECA4C2FB1B1CE70 /* Oswald-Regular.ttf in Resources */,
+				99402968AEAF43EDB87A1298 /* Oswald-SemiBold.ttf in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		457269D92E61AFCE00486BD7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				457269DA2E61AFCE00486BD7 /* LaunchScreen.storyboard in Resources */,
+				457269DB2E61AFCE00486BD7 /* Images.xcassets in Resources */,
+				457269DC2E61AFCE00486BD7 /* PrivacyInfo.xcprivacy in Resources */,
+				457269DD2E61AFCE00486BD7 /* Nunito-Black.ttf in Resources */,
+				457269DE2E61AFCE00486BD7 /* Nunito-BlackItalic.ttf in Resources */,
+				457269DF2E61AFCE00486BD7 /* Nunito-Bold.ttf in Resources */,
+				457269E02E61AFCE00486BD7 /* Nunito-BoldItalic.ttf in Resources */,
+				457269E12E61AFCE00486BD7 /* Nunito-ExtraBold.ttf in Resources */,
+				457269E22E61AFCE00486BD7 /* Nunito-ExtraBoldItalic.ttf in Resources */,
+				457269E32E61AFCE00486BD7 /* Nunito-ExtraLight.ttf in Resources */,
+				457269E42E61AFCE00486BD7 /* Nunito-ExtraLightItalic.ttf in Resources */,
+				457269E52E61AFCE00486BD7 /* Nunito-Italic.ttf in Resources */,
+				457269E62E61AFCE00486BD7 /* Nunito-Light.ttf in Resources */,
+				457269E72E61AFCE00486BD7 /* Nunito-LightItalic.ttf in Resources */,
+				457269E82E61AFCE00486BD7 /* Nunito-Medium.ttf in Resources */,
+				457269E92E61AFCE00486BD7 /* Nunito-MediumItalic.ttf in Resources */,
+				457269EA2E61AFCE00486BD7 /* Nunito-Regular.ttf in Resources */,
+				457269EB2E61AFCE00486BD7 /* Nunito-SemiBold.ttf in Resources */,
+				457269EC2E61AFCE00486BD7 /* Nunito-SemiBoldItalic.ttf in Resources */,
+				457269ED2E61AFCE00486BD7 /* Oswald-Bold.ttf in Resources */,
+				457269EE2E61AFCE00486BD7 /* Oswald-ExtraLight.ttf in Resources */,
+				457269EF2E61AFCE00486BD7 /* Oswald-Light.ttf in Resources */,
+				457269F02E61AFCE00486BD7 /* Oswald-Medium.ttf in Resources */,
+				457269F12E61AFCE00486BD7 /* Oswald-Regular.ttf in Resources */,
+				457269F22E61AFCE00486BD7 /* Oswald-SemiBold.ttf in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		45726A012E61AFE100486BD7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				45726A022E61AFE100486BD7 /* LaunchScreen.storyboard in Resources */,
+				45726A032E61AFE100486BD7 /* Images.xcassets in Resources */,
+				45726A042E61AFE100486BD7 /* PrivacyInfo.xcprivacy in Resources */,
+				45726A052E61AFE100486BD7 /* Nunito-Black.ttf in Resources */,
+				45726A062E61AFE100486BD7 /* Nunito-BlackItalic.ttf in Resources */,
+				45726A072E61AFE100486BD7 /* Nunito-Bold.ttf in Resources */,
+				45726A082E61AFE100486BD7 /* Nunito-BoldItalic.ttf in Resources */,
+				45726A092E61AFE100486BD7 /* Nunito-ExtraBold.ttf in Resources */,
+				45726A0A2E61AFE100486BD7 /* Nunito-ExtraBoldItalic.ttf in Resources */,
+				45726A0B2E61AFE100486BD7 /* Nunito-ExtraLight.ttf in Resources */,
+				45726A0C2E61AFE100486BD7 /* Nunito-ExtraLightItalic.ttf in Resources */,
+				45726A0D2E61AFE100486BD7 /* Nunito-Italic.ttf in Resources */,
+				45726A0E2E61AFE100486BD7 /* Nunito-Light.ttf in Resources */,
+				45726A0F2E61AFE100486BD7 /* Nunito-LightItalic.ttf in Resources */,
+				45726A102E61AFE100486BD7 /* Nunito-Medium.ttf in Resources */,
+				45726A112E61AFE100486BD7 /* Nunito-MediumItalic.ttf in Resources */,
+				45726A122E61AFE100486BD7 /* Nunito-Regular.ttf in Resources */,
+				45726A132E61AFE100486BD7 /* Nunito-SemiBold.ttf in Resources */,
+				45726A142E61AFE100486BD7 /* Nunito-SemiBoldItalic.ttf in Resources */,
+				45726A152E61AFE100486BD7 /* Oswald-Bold.ttf in Resources */,
+				45726A162E61AFE100486BD7 /* Oswald-ExtraLight.ttf in Resources */,
+				45726A172E61AFE100486BD7 /* Oswald-Light.ttf in Resources */,
+				45726A182E61AFE100486BD7 /* Oswald-Medium.ttf in Resources */,
+				45726A192E61AFE100486BD7 /* Oswald-Regular.ttf in Resources */,
+				45726A1A2E61AFE100486BD7 /* Oswald-SemiBold.ttf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -196,6 +494,150 @@
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
 			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-carLibrary/Pods-carLibrary-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		457269D42E61AFCE00486BD7 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-carLibrary-carLibrary-dev-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		457269F32E61AFCE00486BD7 /* Bundle React Native code and images */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"$(SRCROOT)/.xcode.env.local",
+				"$(SRCROOT)/.xcode.env",
+			);
+			name = "Bundle React Native code and images";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "set -e\n\nWITH_ENVIRONMENT=\"$REACT_NATIVE_PATH/scripts/xcode/with-environment.sh\"\nREACT_NATIVE_XCODE=\"$REACT_NATIVE_PATH/scripts/react-native-xcode.sh\"\n\n/bin/sh -c \"$WITH_ENVIRONMENT $REACT_NATIVE_XCODE\"\n";
+		};
+		457269F42E61AFCE00486BD7 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-carLibrary-carLibrary-dev/Pods-carLibrary-carLibrary-dev-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-carLibrary-carLibrary-dev/Pods-carLibrary-carLibrary-dev-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-carLibrary-carLibrary-dev/Pods-carLibrary-carLibrary-dev-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		457269F52E61AFCE00486BD7 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-carLibrary-carLibrary-dev/Pods-carLibrary-carLibrary-dev-resources-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-carLibrary-carLibrary-dev/Pods-carLibrary-carLibrary-dev-resources-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-carLibrary-carLibrary-dev/Pods-carLibrary-carLibrary-dev-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		457269FC2E61AFE100486BD7 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-carLibrary-carLibrary-prod-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		45726A1B2E61AFE100486BD7 /* Bundle React Native code and images */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"$(SRCROOT)/.xcode.env.local",
+				"$(SRCROOT)/.xcode.env",
+			);
+			name = "Bundle React Native code and images";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "set -e\n\nWITH_ENVIRONMENT=\"$REACT_NATIVE_PATH/scripts/xcode/with-environment.sh\"\nREACT_NATIVE_XCODE=\"$REACT_NATIVE_PATH/scripts/react-native-xcode.sh\"\n\n/bin/sh -c \"$WITH_ENVIRONMENT $REACT_NATIVE_XCODE\"\n";
+		};
+		45726A1C2E61AFE100486BD7 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-carLibrary-carLibrary-prod/Pods-carLibrary-carLibrary-prod-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-carLibrary-carLibrary-prod/Pods-carLibrary-carLibrary-prod-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-carLibrary-carLibrary-prod/Pods-carLibrary-carLibrary-prod-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		45726A1D2E61AFE100486BD7 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-carLibrary-carLibrary-prod/Pods-carLibrary-carLibrary-prod-resources-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-carLibrary-carLibrary-prod/Pods-carLibrary-carLibrary-prod-resources-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-carLibrary-carLibrary-prod/Pods-carLibrary-carLibrary-prod-resources.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 		C38B50BA6285516D6DCD4F65 /* [CP] Check Pods Manifest.lock */ = {
@@ -245,6 +687,22 @@
 			buildActionMask = 2147483647;
 			files = (
 				761780ED2CA45674006654EE /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		457269D52E61AFCE00486BD7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				457269D62E61AFCE00486BD7 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		457269FD2E61AFE100486BD7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				457269FE2E61AFE100486BD7 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -300,6 +758,114 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "org.reactjs.native.example.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = carLibrary;
+				SWIFT_VERSION = 5.0;
+				VERSIONING_SYSTEM = "apple-generic";
+			};
+			name = Release;
+		};
+		457269F72E61AFCE00486BD7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B00B5B84220A40C00E273203 /* Pods-carLibrary-carLibrary-dev.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				ENABLE_BITCODE = NO;
+				INFOPLIST_FILE = "carLibrary-dev-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.1;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					"-ObjC",
+					"-lc++",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "org.reactjs.native.example.$(PRODUCT_NAME:rfc1034identifier)";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				VERSIONING_SYSTEM = "apple-generic";
+			};
+			name = Debug;
+		};
+		457269F82E61AFCE00486BD7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3A1342F3DF7840563208A691 /* Pods-carLibrary-carLibrary-dev.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				INFOPLIST_FILE = "carLibrary-dev-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.1;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					"-ObjC",
+					"-lc++",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "org.reactjs.native.example.$(PRODUCT_NAME:rfc1034identifier)";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				VERSIONING_SYSTEM = "apple-generic";
+			};
+			name = Release;
+		};
+		45726A1F2E61AFE100486BD7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9CC81F3028E852CC1BA0D210 /* Pods-carLibrary-carLibrary-prod.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				ENABLE_BITCODE = NO;
+				INFOPLIST_FILE = "carLibrary-prod-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.1;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					"-ObjC",
+					"-lc++",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "org.reactjs.native.example.$(PRODUCT_NAME:rfc1034identifier)";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				VERSIONING_SYSTEM = "apple-generic";
+			};
+			name = Debug;
+		};
+		45726A202E61AFE100486BD7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F0DAEA5BAC7D9822E838C413 /* Pods-carLibrary-carLibrary-prod.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				INFOPLIST_FILE = "carLibrary-prod-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.1;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					"-ObjC",
+					"-lc++",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "org.reactjs.native.example.$(PRODUCT_NAME:rfc1034identifier)";
+				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				VERSIONING_SYSTEM = "apple-generic";
 			};
@@ -374,7 +940,10 @@
 					"-DFOLLY_CFG_NO_COROUTINES=1",
 					"-DFOLLY_HAVE_CLOCK_GETTIME=1",
 				);
+				REACT_NATIVE_PATH = "${PODS_ROOT}/../../node_modules/react-native";
 				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) DEBUG";
+				USE_HERMES = true;
 			};
 			name = Debug;
 		};
@@ -439,7 +1008,9 @@
 					"-DFOLLY_CFG_NO_COROUTINES=1",
 					"-DFOLLY_HAVE_CLOCK_GETTIME=1",
 				);
+				REACT_NATIVE_PATH = "${PODS_ROOT}/../../node_modules/react-native";
 				SDKROOT = iphoneos;
+				USE_HERMES = true;
 				VALIDATE_PRODUCT = YES;
 			};
 			name = Release;
@@ -452,6 +1023,24 @@
 			buildConfigurations = (
 				13B07F941A680F5B00A75B9A /* Debug */,
 				13B07F951A680F5B00A75B9A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		457269F62E61AFCE00486BD7 /* Build configuration list for PBXNativeTarget "carLibrary-dev" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				457269F72E61AFCE00486BD7 /* Debug */,
+				457269F82E61AFCE00486BD7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		45726A1E2E61AFE100486BD7 /* Build configuration list for PBXNativeTarget "carLibrary-prod" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				45726A1F2E61AFE100486BD7 /* Debug */,
+				45726A202E61AFE100486BD7 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

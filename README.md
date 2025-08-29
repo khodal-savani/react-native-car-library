@@ -97,12 +97,6 @@ Please add media under `docs/` and reference them here. Example:
 ![Delete](docs/delete.png)
 ```
 
-For a quick recording on macOS:
-
-```bash
-Cmd+Shift+5  # macOS screen recording tool
-```
-
 ---
 
 ### API & Configuration Reference

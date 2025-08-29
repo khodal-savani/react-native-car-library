@@ -1,0 +1,18 @@
+export default {
+  homeIcon: require('./home.png'),
+  carLibrary: require('./carLibraryIcon.png'),
+  service: require('./serviceIcon.png'),
+  profile: require('./profile.png'),
+  search: require('./search.png'),
+  sort: require('./sort.png'),
+  filter: require('./filter.png'),
+  roundCheck: require('./roundCheck.png'),
+  cross: require('./cross.png'),
+  trash: require('./trash.png'),
+  reset: require('./reset.png'),
+  upArrow: require('./upArrow.png'),
+  downArrow: require('./downArrow.png'),
+  sortingDown: require('./sortingDown.png'),
+  sortingUp: require('./sortingUp.png'),
+  noData: require('./noData.png'),
+};

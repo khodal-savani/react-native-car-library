@@ -1,19 +1,45 @@
 {
-  "name": "carLibrary",
+  "name": "carLibraryApp",
   "version": "0.0.1",
   "private": true,
   "scripts": {
-    "android": "react-native run-android",
-    "ios": "react-native run-ios",
     "lint": "eslint .",
     "start": "react-native start",
-    "test": "jest"
+    "test": "jest",
+    "android": "react-native run-android --mode=developmentDebug --appId=com.carlibrary",
+    "android:dev-release": "react-native run-android --mode=developmentRelease --appId=com.carlibrary",
+    "android:prod": "react-native run-android --mode=productionDebug --appId=com.carlibrary",
+    "android:prod-release": "react-native run-android --mode=productionRelease --appId=com.carlibrary",
+    "androidDevDebugAPK": "cd android && ./gradlew assembleDevelopmentDebug && open ./app/build/outputs/apk/development/debug",
+    "androidDevReleaseAPK": "cd android && ./gradlew assembleDevelopmentRelease && open ./app/build/outputs/apk/development/release",
+    "androidProdDebugAPK": "cd android && ./gradlew assembleProductionDebug && open ./app/build/outputs/apk/production/debug",
+    "androidProdReleaseAPK": "cd android && ./gradlew assembleProductionRelease && open ./app/build/outputs/apk/production/release",
+    "androidProdReleaseBundle": "cd android && ./gradlew bundleProductionRelease && open ./app/build/outputs/bundle/production/release",
+    "android:clean": "cd android && ./gradlew clean && rm -rf app/build .gradle build",
+    "ios": "npx react-native run-ios --scheme=carLibrary-dev",
+    "ios:prod": "npx react-native run-ios --scheme=carLibrary-prod"
   },
   "dependencies": {
+    "@react-native-masked-view/masked-view": "^0.3.2",
+    "@react-native/new-app-screen": "0.81.0",
+    "@react-navigation/bottom-tabs": "^7.4.6",
+    "@react-navigation/native": "^7.1.17",
+    "@react-navigation/stack": "^7.4.7",
+    "@reduxjs/toolkit": "^2.8.2",
+    "axios": "^1.11.0",
+    "formik": "^2.4.6",
     "react": "19.1.0",
-    "react-native": "0.81.1",
-    "@react-native/new-app-screen": "0.81.1",
-    "react-native-safe-area-context": "^5.5.2"
+    "react-native": "0.81.0",
+    "react-native-config": "^1.5.7",
+    "react-native-gesture-handler": "^2.28.0",
+    "react-native-linear-gradient": "^2.8.3",
+    "react-native-mmkv": "^3.3.0",
+    "react-native-safe-area-context": "^5.6.1",
+    "react-native-screens": "^4.15.3",
+    "react-native-toast-message": "^2.3.3",
+    "react-redux": "^9.2.0",
+    "redux-persist": "^6.0.0",
+    "yup": "^1.7.0"
   },
   "devDependencies": {
     "@babel/core": "^7.25.2",
@@ -22,10 +48,10 @@
     "@react-native-community/cli": "20.0.0",
     "@react-native-community/cli-platform-android": "20.0.0",
     "@react-native-community/cli-platform-ios": "20.0.0",
-    "@react-native/babel-preset": "0.81.1",
-    "@react-native/eslint-config": "0.81.1",
-    "@react-native/metro-config": "0.81.1",
-    "@react-native/typescript-config": "0.81.1",
+    "@react-native/babel-preset": "0.81.0",
+    "@react-native/eslint-config": "0.81.0",
+    "@react-native/metro-config": "0.81.0",
+    "@react-native/typescript-config": "0.81.0",
     "@types/jest": "^29.5.13",
     "@types/react": "^19.1.0",
     "@types/react-test-renderer": "^19.1.0",
@@ -36,6 +62,6 @@
     "typescript": "^5.8.3"
   },
   "engines": {
-    "node": ">=20"
+    "node": ">=18"
   }
 }
